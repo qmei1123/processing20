@@ -9,6 +9,14 @@ let points5;
 let points6;
 let points7;
 let points8;
+let points9;
+let points10;
+let points11;
+let points12;
+let points13;
+let points14;
+let points15;
+let points16;
 
 function setup() {
     createCanvas(window.innerWidth, window.innerHeight);
@@ -23,6 +31,14 @@ function setup() {
     points6 = new Points();
     points7 = new Points();
     points8 = new Points();
+    points9 = new Points();
+    points10 = new Points();
+    points11 = new Points();
+    points12 = new Points();
+    points13 = new Points();
+    points14 = new Points();
+    points15 = new Points();
+    points16 = new Points();
 }
 
 function draw() {
@@ -43,6 +59,22 @@ function draw() {
   points7.show();
     points8.move();
   points8.show();
+    points9.move();
+  points9.show();
+     points10.move();
+  points10.show();
+     points11.move();
+  points11.show();
+     points12.move();
+  points12.show();
+    points13.move();
+  points13.show();
+    points14.move();
+  points14.show();
+     points15.move();
+  points15.show();
+    points16.move();
+  points16.show();
 }
 
 class Points {
