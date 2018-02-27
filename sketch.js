@@ -1,4 +1,5 @@
 // Where is the circle
+var canvas;
 var x, y;
 let points1;
 let points2;
@@ -10,7 +11,7 @@ let points7;
 let points8;
 
 function setup() {
-  createCanvas(720, 400);
+    createCanvas(window.innerWidth, window.innerHeight);
   // Starts in the middle
   x = width / 2;
   y = height + random(20);
