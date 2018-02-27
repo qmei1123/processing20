@@ -79,7 +79,7 @@ function draw() {
 
 class Points {
     constructor() {
-        this.x = width/2 + random(-20, 20);
+        this.x = width/2 + random(-30, 30);
         this.y = height + random(40);
     }
     
